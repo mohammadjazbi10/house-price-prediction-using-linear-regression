@@ -37,7 +37,9 @@ This project demonstrates a complete Machine Learning workflow: data exploration
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
-Open the Jupyter Notebook:Bashjupyter notebook "Linear Regression Model.ipynb"
+Open the Jupyter Notebook:
+bash
+jupyter notebook "Linear Regression Model.ipynb"
 
 Model Performance
 The model shows good performance with low error rates on the test data.
