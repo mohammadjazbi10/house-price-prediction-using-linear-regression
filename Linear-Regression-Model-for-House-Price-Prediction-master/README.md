@@ -1,11 +1,13 @@
-# Linear-Regression-Model-for-House-Price-Prediction
+# House Price Prediction using Linear Regression
 
-In this tutorial you will learn how to create Machine Learning Linear Regression Model. You will be analyzing a house price predication dataset for finding out price of house on different parameters. You will do Exploratory Data Analysis, split the training and testing data, Model Evaluation and Predictions. 
+**Machine Learning Project | AIML**
 
-### Problem Statement
-A real state agents want the help to predict the house price for regions in the USA. He gave you the dataset to work on and you decided to use Linear Regressioon Model. Create a model which will help him to estimate of what the house would sell for.
+### Project Overview
+I developed a Linear Regression model to predict house prices in the USA based on various features such as average area income, house age, number of rooms, population, etc. 
 
-Dataset contains 7 columns and 5000 rows with CSV extension. The data contains the following columns :
+This project demonstrates a complete Machine Learning workflow: data exploration, visualization, model training, evaluation, and prediction.
+
+### Dataset contains 7 columns and 5000 rows with CSV extension. The data contains the following columns :
 
 - 'Avg. Area Income': Avg. Income of householder of the city house is located in.
 - 'Avg. Area House Age': Avg. Age of Houses in same city.
@@ -14,4 +16,36 @@ Dataset contains 7 columns and 5000 rows with CSV extension. The data contains t
 - 'Area Population': Population of city.
 - 'Price': Price that the house sold at.
 - 'Address': Address of the houses.
+
+### Technologies Used
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- Matplotlib & Seaborn
+- Jupyter Notebook
+
+### What I Did
+- Performed Exploratory Data Analysis (EDA) with visualizations
+- Checked for correlations between features and price
+- Split data into training and testing sets
+- Trained Linear Regression model
+- Evaluated model using MAE, MSE, and RMSE
+- Made predictions on new data
+
+### How to Run
+1. Install required libraries:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+
+Open the Jupyter Notebook:Bashjupyter notebook "Linear Regression Model.ipynb"
+
+Model Performance
+The model shows good performance with low error rates on the test data.
+What I Learned
+
+Complete end-to-end Machine Learning pipeline
+Importance of Exploratory Data Analysis
+Linear Regression concepts and evaluation metrics
+Data visualization using Seaborn and Matplotlib
+
 
